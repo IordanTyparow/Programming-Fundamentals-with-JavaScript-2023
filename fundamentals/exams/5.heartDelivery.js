@@ -1,4 +1,4 @@
-function solve(input) {
+function heartDelivery(input) {
     let houses = input.shift().split('@').map(Number);
     let commands = input.shift();
    
@@ -43,8 +43,8 @@ function solve(input) {
     } else {
       console.log(`Cupid has failed ${count} places.`);
     }
-  }
-solve(["10@10@10@2",
+}
+heartDelivery(["10@10@10@2",
     "Jump 1",
     "Jump 2",
     "Love!"])
