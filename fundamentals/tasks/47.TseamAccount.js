@@ -28,12 +28,10 @@ function tseamAccount(input) {
             }
         } else if (gameCommand === 'Expansion') {
             let newGame = game.split('-');
-            if (peterAccount.includes(newGame[0])) {
-                for (let i = 0; i < peterAccount.length; i++) {
-                    if (newGame[i] === peterAccount[i]) {
-                        peterAccount.splice(i + 1, 0, newGame[0] + ':' + newGame[1]);
+            for (let i = 0; i < peterAccount.length; i++) {
+                if (newGame[i] === peterAccount[i]) {
+                    peterAccount.splice(i + 1, 0, newGame[0] + ':' + newGame[1]);
 
-                    }
                 }
             }
         }
