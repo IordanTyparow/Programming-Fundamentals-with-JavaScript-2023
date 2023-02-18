@@ -20,8 +20,12 @@ function movingTargets(input) {
                 }
             }
         } else if (currentCommand === 'Strike' && indexes >= 0 && indexes < targets.length) {
-            if (indexes - valuesOrRadius >= 0 && indexes + valuesOrRadius < targets.length) {
-                targets.splice(indexes - valuesOrRadius, indexes + valuesOrRadius);
+            if (targets[indexes + valuesOrRadius] > 0 && targets[indexes - valuesOrRadius] > 0) {
+                let rightCut = targets.indexOf(targets[indexes + valuesOrRadius]);
+                let leftCut = targets.indexOf(targets[indexes - valuesOrRadius]);
+                targets.splice(rightCut, 1);
+                targets.splice(indexes, 1);
+                targets.splice(leftCut, 1);
             } else {
                 console.log('Strike missed!');
             }
@@ -38,6 +42,9 @@ function movingTargets(input) {
     console.log(targets.join('|'));
 }
 
-movingTargets(["1 2 3 4 5",
-    "Strike 0 1",
-    "End"])
+movingTargets(["52 74 23 44 96 110",
+    "Shoot 5 10",
+    "Shoot 1 80",
+    "Strike 2 1",
+    "Add 22 3",
+    "End"]);
