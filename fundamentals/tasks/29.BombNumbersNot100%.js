@@ -3,24 +3,19 @@ function bombNumbers(array, counts) {
     let specialNumber = counts[0];
     let bombs = counts[1];
 
-    let sum = 0;
+    while(array.includes(specialNumber)) {
+        let index = array.indexOf(specialNumber);
+        let elementsToRemove = bombs * 2 + 1;
+        let startIndex = index - bombs;
 
-    for (let index = 0; index < array.length; index++) {
-        let currentNum = array[index];
-
-        if (currentNum === specialNumber) {
-            array.splice(1, bombs);
-            array.splice(3, bombs);
+        if (startIndex < 0) {
+            elementsToRemove += startIndex;
+            startIndex = 0;
         }
+        array.splice(startIndex, elementsToRemove);
     }
-    
-    for (const el of array) {
-        if (el < specialNumber || el > specialNumber) {
-            sum += el;
-        }
-    }   
-    
-    console.log(sum);
+    console.log(array.reduce((a, b) => a + b ,0))
 }
 
-bombNumbers([1, 2, 2, 4, 2, 2, 2, 9], [4, 2]);
+bombNumbers([1, 4, 4, 2, 8, 9, 1],
+[9, 3])
