@@ -56,7 +56,7 @@ main section:nth-child(2) {
 
 main section:nth-child(2) article h2 {
     position: absolute;
-    left: 659px;
+    left: 630px;
     top: 94px;
     width: 0px;
 }
@@ -82,4 +82,22 @@ main section:nth-child(2) article:nth-child(1) p {
 main section:nth-child(2) article:nth-child(1) .second {
     position: absolute;
     margin-top: 161px;
+}
+
+footer article:nth-child(1){
+    position: absolute;
+    margin-top: -275px;
+    left: 310px;
+    color: #b2b6c0;
+}
+
+footer article i {
+    width: 25px;
+}
+
+footer article:nth-child(2) {
+    position: absolute;
+    color: #b2b6c0;
+    margin-top: -180px;
+    left: 165px;
 }
