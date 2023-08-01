@@ -1,0 +1,25 @@
+import page from "../node_modules/page/page.mjs";
+
+import { addSession } from "./middleWares/session.js";
+import { addRender } from "./middleWares/render.js";
+
+import { homePage } from "./views/homePage.js";
+import { loginPage } from "./views/loginPage.js";
+import { registerPage } from "./views/registerPage.js";
+import { productsPage } from "./views/productsPage.js";
+import { createPage } from "./views/createPage.js";
+import { detailsPage } from "./views/detailsPage.js";
+import { editPage } from "./views/editPage.js";
+
+page(addSession);
+page(addRender);
+
+page("/", homePage);
+page("/products", productsPage);
+page("/login", loginPage);
+page("/register", registerPage);
+page("/create", createPage);
+page("/details/:id", detailsPage);
+page("/edit/:id", editPage);
+
+page.start();
