@@ -3,7 +3,19 @@ let Accessory = require("../models/accessoryModel");
 
 exports.save = (cube) => Cube.create(cube);
 
-exports.getOne = (cubeId) => Cube.findById(cubeId).populate('accessories');
+exports.getOne = (cubeId) => Cube.findById(cubeId).populate("accessories");
+
+exports.getAll = () => Cube.find().lean();
+
+exports.search = async (name = "", from, to) => {
+  let cubes = await Cube.find().lean();
+
+  let result = cubes
+    .filter((x) => x.name.toLowerCase().includes(name.toLowerCase()))
+    .filter((x) => x.difficultyLevel >= from && x.difficultyLevel <= to);
+
+  return result;
+};
 
 exports.attachAccessory = async (cubeId, accessoryId) => {
   let cube = await Cube.findById(cubeId);
