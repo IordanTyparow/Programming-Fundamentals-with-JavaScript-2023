@@ -1,0 +1,53 @@
+<main class="create">
+    <!-- Create Page (Only for logged-in users) -->
+    <section id="create">
+        <div class="form">
+            <h2>Add item</h2>
+            <form class="create-form" method="post">
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    value="{{name}}"
+                    placeholder="Name"
+                />
+                <input
+                    type="text"
+                    name="years"
+                    id="years"
+                    value="{{years}}"
+                    placeholder="Years"
+                />
+                <input type="text" name="kind" id="kind" placeholder="Kind" value="{{kind}}"/>
+                <input
+                    type="text"
+                    name="imageUrl"
+                    id="animal-img"
+                    value="{{imageUrl}}"
+                    placeholder="Image url"
+                />
+                <input
+                    type="text"
+                    name="needsOf"
+                    id="needs-of"
+                    value="{{needsOf}}"
+                    placeholder="Needs of"
+                />
+                <input
+                    type="text"
+                    name="location"
+                    id="location"
+                    value="{{location}}"
+                    placeholder="Location"
+                />
+                <textarea
+                    id="description"
+                    placeholder="Description..."
+                    name="description"
+                >{{description}}</textarea>
+
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </section>
+</main>
