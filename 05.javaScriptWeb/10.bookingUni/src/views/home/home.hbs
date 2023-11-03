@@ -1,0 +1,20 @@
+<section id="viewCatalog" class="background-img">
+    <div class="added-hotels">
+
+        {{#each hotels}}
+            <a href="/hotel/{{_id}}/details" class="added-hotel">
+                <img
+                    src="{{imgUrl}}"
+                    alt="photo"
+                    class="picture-added-hotel"
+                />
+                <h3>{{name}}</h3>
+                <span>Free rooms: {{freeRooms}}</span>
+            </a>
+        {{else}}
+            <div class="guest">
+                There are no Hotels found...
+            </div>
+        {{/each}}
+    </div>
+</section>
