@@ -1,0 +1,3 @@
+article span:nth-child(odd) {
+    background-color: red;
+}

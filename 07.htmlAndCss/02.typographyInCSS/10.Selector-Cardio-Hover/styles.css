@@ -1,10 +1,13 @@
 .joinBtn {
-  width: 10em;
-  height: 5ex;
-  background-color: gold;
-  border: 2px solid firebrick;
-  border-radius: 10px;
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
+    width: 10em;
+    height: 2.5em;
+    background-color: gold;
+    font-weight: bold;
+    border: 2px solid rgb(178, 17, 17);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    background-color: red;
 }
