@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #1B9772;
+    margin-top: 0px auto;
+}
+
+footer p {
+    color: #56DBAE;
+}
+
+footer span {
+    color: #DBFAE6;
+}

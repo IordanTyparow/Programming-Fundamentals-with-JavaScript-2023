@@ -1,0 +1,21 @@
+.black {
+    display: flex;
+    min-height: 400px;
+    background-color: #353434;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 150px;
+}
+
+.desc h3 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.desc p {
+    text-align: center;
+    color: #595956;
+}

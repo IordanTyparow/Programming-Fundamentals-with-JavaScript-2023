@@ -1,0 +1,33 @@
+.info {
+    background-color: #353434;
+}
+
+.info-list {
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 250px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.card h3 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+
+.card p {
+    padding-top: 10px;
+    color: #505556;
+}
+
+.card svg {
+    height: 50px;
+    padding: 12px;
+    background-color: #56DBB1;
+    width: 25%;
+}

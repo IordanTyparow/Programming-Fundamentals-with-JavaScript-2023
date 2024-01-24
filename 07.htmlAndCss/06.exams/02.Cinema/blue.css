@@ -1,0 +1,13 @@
+.blue {
+    background-color: #56DBB1;
+    min-height: 200px;
+}
+
+.blue p {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    font-size: 23px;
+}
