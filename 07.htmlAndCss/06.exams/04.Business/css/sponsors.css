@@ -1,0 +1,44 @@
+.sponsors {
+    width: 100%;
+    min-height: 500px;
+}
+
+.main-header {
+    text-align: center;
+    padding: 40px 250px;
+}
+
+.main-header h2 {
+    color: #b0825c;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    font-size: 45px;
+}
+
+.main-images {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main-images .photo {
+    background-color: #dddddd;
+    border-radius: 50%;
+    padding: 17px;
+    width: 5%;
+}
+
+.main-info {
+    padding: 55px;
+}
+
+.main-info h2 {
+    font-size: 45px;
+    color: #b0825c;
+    padding-bottom: 20px;
+}
+
+.main-info h2,
+p {
+    text-align: center;
+}

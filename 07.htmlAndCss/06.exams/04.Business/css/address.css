@@ -1,0 +1,30 @@
+.address {
+    background-color: #171720;
+    border-bottom: 3px solid #3a3a41;
+}
+
+.address-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    gap: 120px;
+}
+
+.address div h4 {
+    color: #f0ffff;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.address div ul li {
+    display: block;
+    line-height: 30px;
+}
+
+.address div ul li a {
+    display: block;
+    text-decoration: none;
+    color: #a4a69b;
+}

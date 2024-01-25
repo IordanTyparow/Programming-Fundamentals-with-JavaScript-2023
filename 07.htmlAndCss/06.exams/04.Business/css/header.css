@@ -1,0 +1,63 @@
+.hero-head {
+    background-image: url(../images/background.jpg);
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.main-head {
+    float: left;
+    width: 100%;
+}
+
+.main-head .logo {
+    display: block;
+    padding: 10px 10px 10px 0;
+    width: 100px;
+    height: 84px;
+    float: left;
+    margin: 20px 20px 0;
+    position: relative;
+    z-index: 3;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav ul {
+    float: left;
+    margin: 30px 20px 0 0;
+}
+
+.main-nav ul li {
+    display: block;
+    float: left;
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.desc {
+    color: white;
+    max-width: 500px;
+    padding-left: 230px;
+}
+
+.desc p {
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 30px;
+}
+
+.desc h1 {
+    padding-bottom: 20px;
+}
