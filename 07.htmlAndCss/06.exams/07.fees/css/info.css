@@ -1,0 +1,35 @@
+.main-info {
+    height: 400px;
+    width: 62%;
+    margin: 0px auto;
+    padding-top: 200px;
+}
+
+.main-info h2 {
+    color: #54546D;
+}
+
+.main-info p {
+    color: #565656;
+    padding-bottom: 35px;
+}
+
+.main-info table {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #E6E6E6;
+    color: #565656;
+}
+
+.main-info table tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.main-info table tr td {
+    padding: 5px;
+}
+
+.main-info table tr td img {
+    width: 30px;
+    padding: 0 15px 0 15px;
+}

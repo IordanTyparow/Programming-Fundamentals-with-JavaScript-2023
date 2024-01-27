@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    min-height: 90px;
+}
+
+header .logo-wrapper {
+    float: left;
+    width: 10%;
+    padding: 15px 0 0 70px;
+}
+
+header nav {
+    float: right;
+    padding: 30px 100px 0 0;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 0 6px;
+    color: #545A75;
+}

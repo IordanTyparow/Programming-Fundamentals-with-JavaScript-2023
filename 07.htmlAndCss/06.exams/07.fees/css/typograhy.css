@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Montserrat";
+}
+h2 {
+    font-size: 2.4em;
+    font-family: "Montserrat";
+}
+h3 {
+    font-size: 2em;
+    font-family: "Montserrat";
+}
+h4 {
+    font-size: 1.8em;
+    font-family: "Montserrat";
+}
+h5 {
+    font-size: 1.4em;
+    font-family: "Montserrat";
+}
+h6 {
+    font-size: 1em;
+    font-family: "Montserrat";
+}

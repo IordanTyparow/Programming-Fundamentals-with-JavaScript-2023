@@ -1,0 +1,23 @@
+.main-bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 0 100px;
+    height: 350px;
+}
+
+.main-bank h3 {
+    color: #54546D;
+    padding-bottom: 15px;
+}
+
+.main-bank p {
+    color: #565656;
+    padding-bottom: 15px;
+}
+
+.main-bank .info {
+    width: 55%;
+}
+
