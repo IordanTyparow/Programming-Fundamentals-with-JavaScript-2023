@@ -1,0 +1,25 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-family: inherit;
+    padding: 15px;
+}
+
+header h1,
+header nav,
+header nav li a,
+header nav li {
+    display: inline-block;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header a {
+    text-decoration: none;
+    color: green;
+    padding: 0px 10px 0 20px;
+}
