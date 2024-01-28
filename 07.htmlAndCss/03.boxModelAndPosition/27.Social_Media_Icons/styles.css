@@ -1,0 +1,45 @@
+body {
+    padding: 30px;
+    margin: 0;
+}
+
+ul,
+li,
+a
+{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li  {
+    background-color: rgb(235, 233, 233);
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 13px 13px;
+}
+
+ul li a i {   
+    color: black;
+}
+
+ul li:first-child i:hover {
+    color: blue;
+}
+
+ul li:nth-child(2) i:hover {
+    color: lightblue;
+}
+
+ul li:nth-child(3) i:hover {
+    color: lightcoral;
+}
+
+ul li:nth-child(4) i:hover {
+    color: lightskyblue;
+}
+
+ul li:nth-child(5) i:hover {
+    color: lightseagreen;
+}
