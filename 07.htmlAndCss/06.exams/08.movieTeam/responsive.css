@@ -1,0 +1,45 @@
+@media (width <= 600px) {
+    header nav {
+        justify-content: center;
+    }
+
+    header nav ul li {
+        padding: 8px;
+        display: block;
+    }
+
+    .header-title h1 {
+        font-size: 38px;
+    }
+
+    .team-description-wrapper ul {
+        flex-wrap: wrap;
+    }
+
+    .team-description-wrapper ul li {
+        width: 40%;
+        height: 356px;
+    }
+
+    .team-description-wrapper {
+        text-align: center;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 88%;
+    }
+
+    .choose-us ul{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .choose-us ul li {
+        flex: 0 0 84%
+    }
+
+    .blog-list {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
