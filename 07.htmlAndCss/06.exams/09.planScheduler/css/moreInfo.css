@@ -1,0 +1,26 @@
+.more-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    text-align: center;
+}
+
+.more-info p:first-child {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #FF7C4C;
+}
+
+.more-info p:first-child span {
+    padding-left: 10px;
+}
+
+.more-info h1 {
+    font-size: 20px;
+}
+
+.more-info .last {
+    font-size: 15px;
+}

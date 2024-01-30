@@ -1,0 +1,21 @@
+footer {
+    min-height: 90px;
+    background-color: #D9D9D9;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90px;
+    gap: 250px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul i {
+    color: black;
+    font-size: 25px;
+}

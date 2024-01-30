@@ -1,0 +1,90 @@
+.plans {
+    display: flex;
+    min-height: 400px;
+    margin-inline: 150px;
+}
+
+.plans .information {
+    display: flex;
+    padding: 60px 50px;
+    width: 40%;
+    flex-direction: column;
+}
+
+.plans .information p {
+    width: 460px;
+    color: #949394;
+    padding-top: 60px;
+}
+
+.plans .information h1 {
+    font-size: 35px;
+}
+
+.plans-card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 30px;
+}
+
+.plans .first {
+    padding: 20px;
+    min-height: 330px;
+    width: 350px;
+    background-color: #FF7C4C;
+}
+
+.plans p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.plans p:nth-child(6) {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.plans h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.plans p {
+    padding-bottom: 10px;
+}
+
+.plans .second {
+    padding: 20px;
+    min-height: 330px;
+    width: 350px;
+    background-color: black;
+    color: white;
+}
+
+.plans .second span {
+    font-weight: bold;
+}
+
+.plans .first span {
+    font-weight: bold;
+}
+
+.plans .first a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.plans .second a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

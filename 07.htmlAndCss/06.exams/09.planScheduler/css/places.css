@@ -1,0 +1,35 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #D9D9D9;
+    padding: 30px 40px;
+}
+
+.places .place {
+    display: flex;
+}
+
+.places p {
+    color: #595959;
+}
+
+.places .place .desc a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.places .place .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.places .place .image {
+    width: 30%;
+    margin-right: 30px;
+}
+

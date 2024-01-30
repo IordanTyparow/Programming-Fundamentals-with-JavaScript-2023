@@ -1,0 +1,33 @@
+.banner {
+    background-image: url(../images/background.jpg);
+    min-height: 70vh;
+    background-position: 0 -270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .info {
+    padding-left: 300px;
+    padding-top: 150px;
+}
+
+.banner .info h1 {
+    padding-bottom: 50px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.banner .info p {
+    width: 500px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+.banner .info a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
