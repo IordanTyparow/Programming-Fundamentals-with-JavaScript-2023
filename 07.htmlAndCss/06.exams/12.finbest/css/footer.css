@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer p {
+   text-align: start;
+   padding-left: 50px;
+}
+
+footer i {
+    width: 5%;
+    padding-inline: 15px;
+}

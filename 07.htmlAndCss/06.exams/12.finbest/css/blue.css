@@ -1,0 +1,30 @@
+.blue {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    background-color: #ADE2DF;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue h1 {
+    width: 400px;
+    text-align: center;
+}
+
+.blue p {
+    width: 500px;
+}
+
+.blue .btn {
+    padding-top: 50px;
+}
+
+.blue .btn button {
+    color: white;
+    background-color: black;
+    padding: 1em 1.5em;
+    border: none;
+    font-size: 18px;
+}

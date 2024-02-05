@@ -1,0 +1,129 @@
+.plans {
+    width: 100%;
+    min-height: 900px;
+    background-color: #f3f5fa;
+}
+
+.plans .plans-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.plans .plans-info button {
+    color: black;
+    background-color: #ade2df;
+    border: none;
+    padding: 0.6em 1em;
+    font-size: 17px;
+    margin-bottom: 30px;
+    border-radius: 0.5em;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.plans-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 300px;
+    background-color: white;
+    height: 500px;
+}
+
+.plans-card .header {
+    border-bottom: 2px solid #ededed;
+}
+
+.plans-card .header h3 {
+    font-size: 22px;
+}
+
+.plans-card .header p,
+h1 {
+    text-align: start;
+}
+
+.plans-card .header p {
+    padding-bottom: 20px;
+}
+
+.plans-card .main p {
+    text-align: start;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.plans-card .footer button {
+    width: 90%;
+    font-weight: bold;
+    border: none;
+    padding: 1.5em 1em;
+    border-radius: 0.5em;
+    font-size: 16px;
+    background-color: #ade2df;
+}
+
+.plans-card:first-child {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.plans-card h1 span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.side-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ADE2DF;
+    width: 45%;
+}
+
+.side-info .header h1, p {
+    text-align: center;
+}
+
+.side-info .header h1 {
+    font-size: 20px;
+}
+
+.side-info .header p {
+    text-align: start;
+    font-size: 27px;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+.side-info .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.side-info .main  p {
+    padding-left: 30px;
+    text-align: start;
+}
+
+.side-info .footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 210px;
+}
+
+.side-info .footer button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 1.5em 1em;
+    width: 90%;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,36 @@
+.banner {
+    background-color: #ADE2DF;
+    min-height: 450px;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.banner .buttons {
+    display: flex;
+    gap: 2em;
+}
+
+.banner .buttons button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 17px;
+    border-radius: 0.5em;
+}

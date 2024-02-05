@@ -1,0 +1,41 @@
+.info {
+    width: 100%;
+    min-height: 450px;
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.info .image {
+    display: flex;
+    justify-content: center;
+    border: 2px dashed #98B8B6;
+}
+
+.info .image img {
+    width: 70%;
+}
+
+.desc {
+    line-height: 1.5;
+    padding-top: 60px;
+    width: 600px;
+}
+
+.desc p {
+    padding-bottom: 10px;
+}
+
+.desc .bold {
+    font-weight: bold;
+}
+
+.desc h1 {
+    padding-bottom: 20px;
+}
+
+.desc p:last-child {
+    text-decoration: underline;
+    text-underline-position: under;
+}

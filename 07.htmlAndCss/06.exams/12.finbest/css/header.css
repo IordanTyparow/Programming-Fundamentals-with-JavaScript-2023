@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    gap: 2.5em;
+    margin-inline: 130px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li:nth-child(6) {
+    align-self: flex-end;
+}
+
+header nav ul:nth-child(2) li:nth-child(2) {
+    background-color: #ADE2DF;
+    font-weight: 500;    
+    padding: 0.6em 0.8em;
+    border-radius: 0.3em;
+}

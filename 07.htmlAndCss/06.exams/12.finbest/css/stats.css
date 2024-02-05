@@ -1,0 +1,22 @@
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.stats .card:last-child {
+    border-right: 2px solid #dbdbdb;
+}
+
+.card {
+    text-align: center;
+    border-left: 2px solid #dbdbdb;
+    padding: 2em;
+    flex: 0 0 25%;
+}
+
+.card h1 {
+    padding-bottom: 25px;
+}
