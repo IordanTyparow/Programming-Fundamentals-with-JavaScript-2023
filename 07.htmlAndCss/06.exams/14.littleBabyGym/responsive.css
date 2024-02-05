@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .entry-header {
+        background: url(./images/header-image.jpg);
+        background-position: -520px -135px;
+        background-repeat: no-repeat;
+    }
+
+    .entry-header-container {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .entry-header-description {
+        padding-left: 20px;
+    }
+
+    .button-primary {
+        width: 126px;
+    }
+
+    .site-logos-container {
+        text-align: center;
+        display: flex;
+        min-width: 600px;
+        flex-wrap: wrap;
+    }
+
+    .site-logos-container .site-logo {
+        width: 244px;
+    }
+
+    .site-information {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .entry-description {
+        width: 107%;
+    }
+
+    .site-form {
+        margin-top: 0px;
+    }
+
+    .site-form-container .entry-title {
+        font-size: 13px;
+    }
+
+    .site-form form > p {
+        flex-direction: column;
+    }
+
+    .site-form form > p input {
+        width: 95%;
+    }
+
+    .site-form .site-form-container form > button {
+        position: relative;
+        right: 165px;
+    }
+
+    .site-blog-container {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-blog-container .entry-title {
+        text-align: center;
+        width: 300px;
+    }
+
+    .site-posts {
+        flex-direction: column;
+    }
+
+    .site-footer {
+        text-align: center;
+        flex-direction: column;
+    }
+}
