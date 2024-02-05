@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: "Open Sans";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 450px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.left-side {
+    position: relative;
+    display: flex;
+    flex: 1 0 50%;
+}
+
+.left-side img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f7f8;
+    flex: 1 0 50%;
+    min-height: 100%;
+}
+
+.right-side h1 {
+    font-size: 24px;
+}
+
+.right-side .buttons button:first-child {
+    background-color: #86d862;
+}
+
+.right-side .buttons {
+    display: flex;
+    gap: 4em;
+}
+
+.right-side .buttons button {
+    padding: 0.7em 1.5em;
+    border-radius: 0.5em;
+}
+
+.right-side .gender {
+    text-align: center;
+}
+
+.right-side .gender p {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.right-side .gender select {
+    width: 160px;
+}
+
+.right-side .gender input {
+    width: 130px;
+}
+
+.right-side .weight {
+    text-align: center;
+}
+
+.right-side .weight p {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.right-side .weight input {
+    width: 350px;
+    font-size: 17px;
+}
+
+.right-side .height {
+    text-align: center;
+}
+
+.right-side .height  p {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.right-side .height input {
+    font-size: 15px;
+}
+
+.right-side .last-btn {
+    width: 420px;
+    padding: 0.4em 1em;
+    border-radius: 1em;
+    border: none;
+    background-color: #05A2D3;
+    color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0.5);
+}
