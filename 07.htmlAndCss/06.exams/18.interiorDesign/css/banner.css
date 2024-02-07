@@ -1,0 +1,39 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner .header {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 10%;
+    padding: 30px;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0.3);
+}
+
+.banner .header h1 {
+    color: #363434;
+    border-bottom: 0.1em solid white;
+}
+
+.banner .header p {
+    color: #363434;
+    padding-top: 0.6em;
+}
+
+.banner .desc {
+    position: absolute;
+    top: 35%;
+    left: 83%;
+    text-align: end;
+    padding: 2em;
+    width: 180px;
+    background-color: #A39A93;
+    color: white;
+}

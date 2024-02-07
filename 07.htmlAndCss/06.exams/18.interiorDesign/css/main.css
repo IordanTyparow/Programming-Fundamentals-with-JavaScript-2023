@@ -1,0 +1,80 @@
+body > div {
+    display: flex;
+}
+
+main {
+    display: inline-block;
+    width: 80%;
+    min-height: 100vh;
+    background-color: #f2f0f3;
+}
+
+.first-section {
+    padding: 5em 5em 1em 5em;
+}
+
+.first-section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.first-section > p {
+    padding-bottom: 30px;
+    font-size: 20px;
+    width: 900px;
+}
+
+.first-section > p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.second-section h1 {
+    padding-left: 1.8em;
+    text-transform: uppercase;
+    border-bottom: 3px solid #b9b8b9;
+}
+
+.second-section .contacts > p span {
+    font-weight: bold;
+}
+
+.second-section .contacts p {
+    font-size: 16px;
+}
+
+.second-section .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 4.5em;
+    gap: 2em;
+}
+
+.second-section .buttons {
+    display: flex;
+    gap: 1em;
+    padding-left: 4.5em;
+    padding-top: 30px;
+}
+
+.second-section .buttons input {
+    border-radius: 0.5em;
+    padding: 0.8em;
+    border: none;
+    background-color: #BAB1AD;
+    width: 30%;
+}
+
+.second-section .buttons input::placeholder {
+    color: #fff;
+}
+
+.second-section .buttons button {
+    border: none;
+    background-color: #67784D;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}

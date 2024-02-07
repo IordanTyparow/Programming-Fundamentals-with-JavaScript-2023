@@ -1,0 +1,16 @@
+aside {
+    display: flex;
+    width: 30%;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 20px;
+    background-color: #bab1ad;
+    color: white;
+}
