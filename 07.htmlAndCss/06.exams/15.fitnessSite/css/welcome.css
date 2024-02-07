@@ -1,0 +1,43 @@
+.welcome {
+    width: 100%;
+    min-height: 300px;
+}
+
+.welcome > h1 {
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 3px solid red;
+    margin-inline: 700px;
+}
+
+.welcome .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .container .card img {
+    margin-bottom: 15px;
+    width: 10%;
+}
+
+.container .card h1 {
+    margin-bottom: 15px;
+    color: #D01919;
+    font-size: 19px;
+}
+
+.container .card p {
+    width: 250px;
+}
+
+

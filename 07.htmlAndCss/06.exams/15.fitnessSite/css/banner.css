@@ -1,0 +1,38 @@
+.banner {
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../image/fitness-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    height: 500px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.desc h1 {
+    color: white;
+    letter-spacing: 0.5em;
+    padding-bottom: 15px;
+}
+
+.desc p {
+    text-align: center;
+    color: white;
+    width: 380px;
+    padding-bottom: 30px;
+}
+
+.desc button {
+    border: none;
+    color: white;
+    background-color: #d01919;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+}

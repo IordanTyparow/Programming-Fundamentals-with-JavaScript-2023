@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap");
+
+html {
+    font: 14px/1.4 "Mulish", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    background-image: url(./images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    min-height: 510px;
+    border-radius: 2em;
+}
+
+.form-container {
+    width: 60%;
+    height: 500px;
+}
+
+.form-container h1 {
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.form-container .names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.form-container div .first {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div .second {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div .first input {
+    border: 1px solid #cecece;
+    border-radius: 1em;
+    height: 33px;
+    margin-right: 20px;
+}
+
+.form-container div .second input {
+    border: 1px solid #cecece;
+    border-radius: 1em;
+    height: 33px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.email input {
+    width: 90%;
+    height: 33px;
+    border: 1px solid #cecece;
+    border-radius: 1em;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.password input {
+    width: 90%;
+    height: 33px;
+    border: 1px solid #cecece;
+    border-radius: 1em;
+}
+
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.confirm-password input {
+    width: 90%;
+    height: 33px;
+    border: 1px solid #cecece;
+    border-radius: 1em;
+}
+
+.checkbox {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.register-btn button {
+    margin-top: 15px;
+    color: white;
+    background-color: #ae3c33;
+    border: none;
+    padding: 0.8em 1.6em;
+    border-radius: 2em;
+}

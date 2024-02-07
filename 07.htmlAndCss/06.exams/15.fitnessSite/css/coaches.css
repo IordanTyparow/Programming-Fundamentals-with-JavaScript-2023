@@ -1,0 +1,47 @@
+.coaches {
+    background-color: #efefef;
+    width: 100%;
+    min-height: 400px;
+}
+
+.coaches > h1 {
+    text-align: center;
+    border-bottom: 3px solid red;
+    margin-inline: 700px;
+}
+
+.container-coaches {
+    display: flex;
+    min-height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-coaches .coaches-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-coaches .coaches-card img {
+    margin-bottom: 10px;
+    width: 60%;
+    border-radius: 0.5em;
+}
+
+.container-coaches .coaches-card h1 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.container-coaches .coaches-card p:nth-child(3) {
+    color: red;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.container-coaches .coaches-card p:nth-child(4) {
+    text-align: center;
+    width: 242px;
+    color: #A6A1A5;
+}
