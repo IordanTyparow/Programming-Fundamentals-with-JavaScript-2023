@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-image: url(./image/background.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.wrapper .card {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.wrapper .card .header h1 {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.wrapper .card .header span {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.wrapper .card .header p:nth-child(2) {
+    padding-bottom: 25px;
+}
+
+.wrapper .card .header p:nth-child(3) {
+    padding-bottom: 25px;
+    color: #A0A1A1;
+}
+
+.wrapper .card .main {
+    padding-bottom: 55px;
+}
+
+.wrapper .card .main p {
+    width: 325px;
+    padding-bottom: 15px;
+}
+
+.wrapper .card .main p i {
+    padding-right: 5px;
+}
+
+.wrapper .card .footer button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1.1em 2.3em;
+    border-radius: 0.4em;
+}
