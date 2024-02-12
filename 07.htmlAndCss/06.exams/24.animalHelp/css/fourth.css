@@ -1,0 +1,94 @@
+.fourth .animals {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.fourth .animals h1 {
+    padding-bottom: 10px;
+}
+
+.animals .animals-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    display: flex;
+    gap: 3em;
+}
+
+.animals .animals-wrapper img {
+    width: 20%;
+}
+
+.wee-work-for h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fourth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.wee-work-for {
+    padding-bottom: 100px;
+}
+
+.wee-work-for .fourth-card {
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    width: 50%;
+}
+
+.fourth-card .card-header {
+    padding: 1em;
+    border-bottom: 1px solid grey;
+    background-color: #85dcff;
+    color: black;
+    font-weight: bold;
+}
+
+.fourth-card .card-info {
+    padding: 1em;
+    font-weight: bold;
+}
+
+.alert {
+    display: flex;
+}
+
+.alert .alert-media {
+    width: 50%;
+}
+
+.alert .alert-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5em;
+}
+
+.alert .alert-info h1 {
+    padding-bottom: 25px;
+}
+
+.alert .alert-info p {
+    padding-bottom: 25px;
+    width: 500px;
+}
+
+.alert .alert-info input {
+    margin-bottom: 25px;
+    padding: 10px 15px;
+}
+
+.alert .alert-info button {
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}

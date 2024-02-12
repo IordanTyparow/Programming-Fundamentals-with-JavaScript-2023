@@ -1,0 +1,41 @@
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #85dcff;
+}
+
+.third h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.third button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.8em 4em;
+    border: none;
+    border-radius: 0.5em;
+    margin-bottom: 50px;
+}
+
+.third-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 50%;
+}
+
+.third-wrapper .third-card p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.third-wrapper .third-card i {
+    padding-right: 5px;
+}
