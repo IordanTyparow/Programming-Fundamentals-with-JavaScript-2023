@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+html {
+    font-family: "Open Sans";
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+    background-color: #e9e9e9;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    width: 70%;
+    height: 600px;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.image {
+    position: relative;
+    background-image: url(./image/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    padding: 2em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.image::after {
+    content: "";
+    box-shadow: 0 50em 1em 0 rgb(0, 0, 0, 0.711) inset;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.image img {
+    height: 100%;
+}
+
+.image p {
+    color: white;
+}
+
+.image .content {
+    text-align: center;
+    align-self: center;
+    padding-top: 10em;
+}
+
+.image > p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image .content h1 {
+    font-size: 43px;
+}
+
+.image .content p {
+    font-size: 33px;
+}
+
+.image .icons {
+    text-align: center;
+    padding-top: 11em;
+}
+
+.image .icons i {
+    padding-inline: 0.5em;
+    font-size: 20px;
+}
+
+.form {
+    width: 50%;
+    background-color: #fafafa;
+    padding: 3em;
+}
+
+.form p {
+    color: #999999;
+}
+
+.form label {
+    color: #999999;
+    display: block;
+    padding-bottom: 1em;
+    font-size: 20px;
+}
+
+.form input {
+    text-indent: 15px;
+    font-size: 22px;
+    margin-bottom: 0.5em;
+    border: 0;
+    background-color: #fafafa;
+    width: 98%;
+}
+
+.form .username {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5em;
+}
+
+.form .email {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5em;
+}
+
+.form .password {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5em;
+}
+
+.form .repeat-password {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1.5em;
+}
+
+.form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form .btn input {
+    background-color: black;
+    border-radius: 1em;
+    padding: 0.5em 2em;
+    color: white;
+    flex: 0 0 20%;
+    margin-right: 30px;
+}
+
+.form .btn p {
+    text-decoration: underline;
+    font-weight: 600;
+}
