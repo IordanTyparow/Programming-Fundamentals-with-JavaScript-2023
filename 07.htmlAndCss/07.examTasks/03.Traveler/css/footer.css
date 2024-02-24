@@ -1,0 +1,19 @@
+footer {
+    background-color: #352B2A;
+    padding: 2em 5em;
+}
+
+footer .logo {
+    width: 6%;
+    padding-bottom: 35px;
+}
+
+footer .footer-content p {
+    color: white;
+    width: 500px;
+    padding-bottom: 15px;
+}
+
+footer .footer-content span {
+    color: #6C6968;
+}

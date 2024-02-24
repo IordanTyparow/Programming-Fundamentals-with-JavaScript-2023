@@ -1,0 +1,47 @@
+@media (width <= 600px) {
+    header nav {
+        text-align: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+    }
+
+    .header-title {
+        padding: 1em;
+    }
+
+    .header-title h1 {
+        font-size: 35px;
+    }
+
+    .header-title p {
+        font-size: 17px;
+    }
+
+    .choose-us ul {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .choose-us li {
+        width: 64%;
+    }
+
+    .team-description ul {
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .team-description ul li img {
+        width: 200px;
+        height: 200px;
+    }
+}

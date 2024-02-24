@@ -1,0 +1,20 @@
+.second {
+    background-color: #e14747;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .second-content {
+    text-align: center;
+    color: white;
+}
+
+.second .second-content h3 {
+    padding-bottom: 30px;
+}
+
+.second .second-content p {
+    width: 240px;
+}

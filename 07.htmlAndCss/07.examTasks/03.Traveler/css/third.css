@@ -1,0 +1,38 @@
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F0E9;
+    height: 1300px;
+}
+
+.third .img-container {
+    padding-top: 60px;
+    width: 40%;
+}
+
+.img-container .card-content h2 {
+    font-size: 90px;
+    padding: 70px 0;
+    text-align: center;
+    color: #352B2A;
+}
+
+.img-container .card-content p {
+    color: #352B2A;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.img-container .card-content button {
+    padding: 0.5em 1em;
+}
+
+.img-container {
+   padding-bottom: 60px;
+}
+
+.third button {
+    padding: 0.5em 1em;
+}

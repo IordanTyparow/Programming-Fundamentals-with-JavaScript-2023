@@ -1,0 +1,28 @@
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e14747;
+}
+
+.fourth h1 {
+    color: white;
+    padding: 60px 0;
+}
+
+.fourth p {
+    text-align: center;
+    padding-bottom: 70px;
+    width: 850px;
+    color: white;
+}
+
+.fourth button {
+    background-color: #FAD87A;
+    color: black;
+    border: none;
+    border-radius: 3em;
+    margin-bottom: 70px;
+    padding: 1em 1.5em;
+}

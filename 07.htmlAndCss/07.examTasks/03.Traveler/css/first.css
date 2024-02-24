@@ -1,0 +1,22 @@
+.first {
+    width: 100%;
+    background-color: #F8F0E9;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .first-content {
+    width: 60%;
+    line-height: 0.8;
+}
+
+.first .first-content p {
+    color: #352B2A;
+}
+
+.first .first-content h1 {
+    color: #352B2A;
+    padding-top: 70px;
+}

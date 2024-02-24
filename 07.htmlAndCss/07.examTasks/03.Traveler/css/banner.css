@@ -1,0 +1,59 @@
+.banner {
+    width: 100%;
+    height: 773px;
+    background-image: url(../images/poster.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.banner .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 5em;
+}
+
+.banner .logo {
+    width: 10%;
+}
+
+.banner .header nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+.banner .header nav ul li:nth-child(2) {
+    width: 105px;
+}
+
+.banner .header nav ul li {
+    list-style: none;
+}
+
+.banner .header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 660px;
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 90px;
+    padding-bottom: 100px;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 16px;
+    width: 510px;
+}
