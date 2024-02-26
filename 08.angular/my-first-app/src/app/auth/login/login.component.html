@@ -1,0 +1,47 @@
+<div class="wrapper">
+  <form [formGroup]="loginForm" (ngSubmit)="handleSubmit()">
+    <h1>Login</h1>
+
+    <div class="first">
+      <div *ngIf="loginForm.get('username')?.touched">
+        <p *ngIf="loginForm.get('username')?.errors?.['required']">
+          The username is require!
+        </p>
+      </div>
+
+      <div>
+        <span><i class="fa-solid fa-user"></i></span>
+        <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          formControlName="username"
+        />
+      </div>
+    </div>
+
+    <div class="second">
+      <div *ngIf="loginForm.get('password')?.touched">
+        <p *ngIf="loginForm.get('password')?.errors?.['required']">
+          The password is require!
+        </p>
+        <p *ngIf="loginForm.get('password')?.errors?.['maxlength']">
+          The password must be 10 minimum characters!
+        </p>
+      </div>
+
+
+      <div>
+        <span><i class="fa-solid fa-lock"></i></span>
+        <input
+          type="text"
+          id="passoword"
+          placeholder="Password"
+          formControlName="password"
+        />
+      </div>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
